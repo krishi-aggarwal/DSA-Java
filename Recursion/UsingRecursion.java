@@ -4,8 +4,6 @@ package Recursion;
 
 public class UsingRecursion {
 
-    public static int n = 5;
-
     public static void f(int n){
         if (n <= 0) { 
             return; 
