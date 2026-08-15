@@ -9,6 +9,7 @@ public class CharacterHashing {
         String s = in.nextLine().toLowerCase();
         System.out.println(s);
         int[] hash = new int[26];
+        //can take int[256] 
 
         for(int i = 0; i < s.length(); i++) {
             char ch = s.charAt(i);
