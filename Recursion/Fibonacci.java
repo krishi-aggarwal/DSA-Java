@@ -10,7 +10,7 @@ public class Fibonacci {
         int slast = fibo(n-2);
 
         return last+slast;  
-    }
+    }   
     public static void main(String[] args) {
         int n = 3 ;
         System.out.println(fibo(n));
